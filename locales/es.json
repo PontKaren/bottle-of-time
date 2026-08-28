@@ -1,0 +1,35 @@
+{
+    "":"",
+
+    "mode.timer":"Modo de tiempo",
+    "timer.title":"Temporizador",
+
+    "button.start": "Iniciar",
+    "button.language": "Idioma",
+    "button.settings": "Ajustes",
+    "button.theme": "Temas",
+    "button.help": "Ayuda",
+    "button.user": "Usuario",
+    "button.themeMode":"Cambiar modo",
+
+    "button.pause": "Pausar",
+    "button.resume": "Reanudar",
+    "button.reset": "Resetear",
+
+    "timer.focus": "Concentración",
+    "timer.shortBreak": "Descanso corto",
+    "timer.longBreak": "Descanso largo",
+    "timer.session": "Sesión",
+
+    "settings.title": "Configuración",
+    "settings.language": "Idioma",
+
+    "limitTime.title":"Tiempo limite",
+
+
+    "notification.finish": "¡Buen trabajo!",
+    "notification.break": "Descansito",
+
+    "preset-select":"modo"
+
+}

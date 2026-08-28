@@ -1,0 +1,98 @@
+:root{
+
+--bg-main:#f8e9ce;
+--bg-secondary:#EDE3D2;
+--bg-card:#FFF9F1;
+
+--primary:#A67C52;
+--primary-light:#C9A67B;
+--primary-dark:#7A5A3A;
+
+--text-main:#4A3A2A;
+--text-secondary:#7A6755;
+--text-light:#FDFBF8;
+
+--border:#D7C8B3;
+--border-dark:#B89E7A;
+
+--button-bg:#C7A17A;
+--button-hover:#D8C2A4;
+--button-active:#C5AA86;
+--button-disabled:#D8D2CA;
+
+--success:#8FA876;
+--warning:#D9A441;
+--danger:#C86A5A;
+--info:#8FA8B8;
+
+--shadow-light:rgba(0,0,0,.08);
+--shadow-medium:rgba(0,0,0,.15);
+
+--overlay:rgba(74,58,42,.35);
+
+/* Tipografías */
+
+--font-title: "Cormorant Garamond", serif;
+--font-text: "Nunito", sans-serif;
+
+/*  PESOS */
+
+--font-light: 300;
+--font-regular: 400;
+--font-medium: 500;
+--font-semibold: 600;
+--font-bold: 700;
+
+
+}
+
+
+:root[data-theme="dark"]{
+
+--bg-main:#2B2622;
+--bg-secondary:#38312C;
+--bg-card:#443B35;
+
+--primary:#C9A67B;
+--primary-light:#DDB88A;
+--primary-dark:#A67C52;
+
+--text-main:#F3EBDD;
+--text-secondary:#D4C4B1;
+--text-light:#FFFDF8;
+
+--border:#5B4E43;
+--border-dark:#746252;
+
+--button-bg:#5A4B40;
+--button-hover:#6A594D;
+--button-active:#7A6758;
+--button-disabled:#4A423D;
+
+--success:#8FA876;
+--warning:#D9A441;
+--danger:#C86A5A;
+--info:#8FA8B8;
+
+--shadow-light:rgba(0,0,0,.25);
+--shadow-medium:rgba(0,0,0,.45);
+
+--overlay:rgba(20,20,20,.55);
+
+}
+
+
+.cormorant-garamond{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+}

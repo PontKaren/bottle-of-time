@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,29 +13,40 @@
   <header>
     <div class="header">
 
-        <img src="/assets/logo.png" class="logo">
+      <div class="header-top">
+        <div class="brand">
 
-        <h1 class="title"> Bottle Of Time </h1>
+          <img src="/assets/logo.png" class="logo">
 
-        <div class="header-right"></div>
-            <div id="theme-toggle">☀️/🌙</div>
-            <div id="user-toggle"> 🐍 usuario</div> 
+          <h1 class="title"> Bottle Of Time </h1>
+
         </div>
+
+        <div class="header-action">
+
+            <button id="theme-toggle">☀️/🌙 Tema </button>
+
+            <button id="user-toggle">🐍 Usuario</button>
+
+
+        </div>
+      </div>
 
     </div>    
 
-  </header>  
-  <dialog id="modal-settings">
+    <button id="toggle-menu"> ☰ </button>
+
+  </header> 
+  
+  <div class="app-content">
     <aside id="aside-bar">
 
-        <button id="toggle-menu"> ☰ </button>
-        <button> Ajustes </button>
-        <button> Temas </button>
-        <button> Ayuda </button>
+      <button> Ajustes </button>
+      <button> Temas </button>
+      <button> Ayuda </button>
 
     </aside>
-  </dialog>
-
+  </div>
 
   <main>
     <div class="sesion"> Sesión 0</div>
